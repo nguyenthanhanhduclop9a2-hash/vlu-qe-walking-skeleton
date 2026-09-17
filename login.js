@@ -5,7 +5,7 @@
  * @returns {boolean} - true nếu đúng thông tin đăng nhập, ngược lại false
  */
 function login(username, password) {
-    return username === 'admin' && password === '123';
+    return username === 'admin' && password === '1234';
 }
 
 // Export để sử dụng trong Jest (CommonJS)
