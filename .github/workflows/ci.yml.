@@ -17,10 +17,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          # Đã xóa dòng cache: 'npm' để tránh lỗi không tìm thấy file lock
 
       - name: Install dependencies
-        run: npm install  # Đổi từ npm ci sang npm install
+        run: npm install
 
       - name: Run tests
         run: npm test
