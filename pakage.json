@@ -1,0 +1,11 @@
+{
+  "name": "login-project",
+  "version": "1.0.0",
+  "description": "Dự án đăng nhập đơn giản với Unit Test",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
